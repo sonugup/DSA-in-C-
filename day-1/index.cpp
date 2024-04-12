@@ -15,4 +15,9 @@ int main() {
     cout << d << endl;
     int s=sizeof(d);
     cout << s<<endl;
+
+    char ch=42;
+    cout << ch << endl;
+    int a1='a';
+    cout <<  a1 << endl;
 }
