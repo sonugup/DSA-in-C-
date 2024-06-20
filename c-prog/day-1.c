@@ -17,7 +17,9 @@ void main(){
     signed short int a1=65534;
     printf("%d", a1); // o/p=-2
 
-   // ## Range of unsigned short cyclic :   0 to 65535
+   // ## Range of unsigned short cyclic :   0 to 65535 [0 - 65535]
 
+   unsigned short int a2=65536;
+    printf("%d", a2); // o/p=0
 }
 
