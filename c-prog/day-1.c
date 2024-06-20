@@ -5,7 +5,7 @@ void main(){
     printf("%c", x);
 
     char x1=129;
-    // printf("%d", x1); //o/p = -127
+    printf("%d", x1); //o/p = -127
 
 
    // ## Range of signed short cyclic :  +ve 0 to 32767  and  -ve -1 to -32768
