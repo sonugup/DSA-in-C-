@@ -9,16 +9,16 @@ let s = [];
 nQueens(board,0,4,s);
 console.log(s)
 console.log(count);
-// function printBoard(board,s){
-    // for (let i = 0;i<board.length;i++){
-        // console.log(board[i].join(" "));
-    // }
-    // console.log("-------------");
-// }
+function printBoard(board,s){
+    for (let i = 0;i<board.length;i++){
+        console.log(board[i].join(" "));
+    }
+    console.log("-------------");
+}
 function nQueens(board,row,N,s){
     if (row == N){
         count++;
-        // printBoard(board,s);
+        printBoard(board,s);
         s.push(board.map(r => r.map(c => (c === 1 ? 'Q' : '.')).join('')));
 
         return;
