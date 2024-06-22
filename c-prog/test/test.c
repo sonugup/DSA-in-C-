@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(int argc,char *argv[]){
+int main(int argc,char *argv[]){
       int x=1, z[2]={10, 11};
       int *p=NULL;
       p=&x;
